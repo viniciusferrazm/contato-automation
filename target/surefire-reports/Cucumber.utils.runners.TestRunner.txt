@@ -1,0 +1,35 @@
+-------------------------------------------------------------------------------
+Test set: Cucumber.utils.runners.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.448 sec <<< FAILURE!
+: Criar um novo contato(: Adicionar Novo Contato)  Time elapsed: 0.055 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step 'que estou no aplicativo de contatos' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Dado("que estou no aplicativo de contatos")
+public void que_estou_no_aplicativo_de_contatos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("navego até a tela de adicionar um novo contato")
+public void navego_até_a_tela_de_adicionar_um_novo_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("insiro as informações de contato")
+public void insiro_as_informações_de_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando("confirmo a criação do contato")
+public void confirmo_a_criação_do_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Entao("valido se os dados do contato criado conferem")
+public void valido_se_os_dados_do_contato_criado_conferem() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="Cucumber.utils.runners.TestRunner" time="0.055" errors="1" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.9+8-LTS"/>
+    <property name="sun.boot.library.path" value="/Users/ViniciusFerraz/.sdkman/candidates/java/17.0.9-amzn/lib"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ViniciusFerraz/Projetos/contato-automation"/>
+    <property name="java.vm.vendor" value="Amazon.com Inc."/>
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/ViniciusFerraz/Projetos/contato-automation"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.9+8-LTS"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.io.tmpdir" value="/var/folders/xz/w8lg2xj90yb7_q7t3bgvxgkh0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/ViniciusFerraz/.sdkman/candidates/maven/current/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/ViniciusFerraz/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="maven.conf" value="/Users/ViniciusFerraz/.sdkman/candidates/maven/current/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="14.1.1"/>
+    <property name="library.jansi.path" value="/Users/ViniciusFerraz/.sdkman/candidates/maven/current/lib/jansi-native"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/ViniciusFerraz"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="viniciusferrazdoamaralmello"/>
+    <property name="java.class.path" value="/Users/ViniciusFerraz/.sdkman/candidates/maven/current/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="/Users/ViniciusFerraz/.sdkman/candidates/java/17.0.9-amzn"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.9"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Amazon.com Inc."/>
+    <property name="sun.stderr.encoding" value="UTF-8"/>
+    <property name="maven.home" value="/Users/ViniciusFerraz/.sdkman/candidates/maven/current"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.version.date" value="2023-10-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-17/issues/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Corretto-17.0.9.8.1"/>
+    <property name="sun.stdout.encoding" value="UTF-8"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase classname=": Adicionar Novo Contato" name=": Criar um novo contato" time="0.055">
+    <error message="The step &apos;que estou no aplicativo de contatos&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Dado(&quot;que estou no aplicativo de contatos&quot;)
+public void que_estou_no_aplicativo_de_contatos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;navego até a tela de adicionar um novo contato&quot;)
+public void navego_até_a_tela_de_adicionar_um_novo_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;insiro as informações de contato&quot;)
+public void insiro_as_informações_de_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;confirmo a criação do contato&quot;)
+public void confirmo_a_criação_do_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Entao(&quot;valido se os dados do contato criado conferem&quot;)
+public void valido_se_os_dados_do_contato_criado_conferem() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+" type="io.cucumber.junit.UndefinedStepException">io.cucumber.junit.UndefinedStepException: The step &apos;que estou no aplicativo de contatos&apos; and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Dado(&quot;que estou no aplicativo de contatos&quot;)
+public void que_estou_no_aplicativo_de_contatos() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;navego até a tela de adicionar um novo contato&quot;)
+public void navego_até_a_tela_de_adicionar_um_novo_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;insiro as informações de contato&quot;)
+public void insiro_as_informações_de_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Quando(&quot;confirmo a criação do contato&quot;)
+public void confirmo_a_criação_do_contato() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Entao(&quot;valido se os dados do contato criado conferem&quot;)
+public void valido_se_os_dados_do_contato_criado_conferem() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+</error>
+    <system-out>
+Cenario: : Criar um novo contato                        &amp;#27;[90m# src/test/resources/features/Registration.feature:4&amp;#27;[0m
+  &amp;#27;[33mDado &amp;#27;[0m&amp;#27;[33mque estou no aplicativo de contatos&amp;#27;[0m
+  &amp;#27;[36mQuando &amp;#27;[0m&amp;#27;[36mnavego até a tela de adicionar um novo contato&amp;#27;[0m
+  &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36minsiro as informações de contato&amp;#27;[0m
+  &amp;#27;[36mE &amp;#27;[0m&amp;#27;[36mconfirmo a criação do contato&amp;#27;[0m
+  &amp;#27;[36mEntao &amp;#27;[0m&amp;#27;[36mvalido se os dados do contato criado conferem&amp;#27;[0m
+</system-out>
+    <system-err>Nov 15, 2023 5:54:20 PM io.cucumber.core.feature.GluePath warnWhenWellKnownProjectSourceDirectory
+WARNING: Consider replacing glue path &apos;src/test/java/Cucumber/utils/AutomationSteps&apos; with &apos;Cucumber.utils.AutomationSteps&apos;.
+&apos;
+The current glue path points to a source directory in your project. However cucumber looks for glue (i.e. step definitions) on the classpath. By using a package name you can avoid this ambiguity.
+</system-err>
+  </testcase>
+</testsuite>
